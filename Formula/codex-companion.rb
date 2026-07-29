@@ -1,26 +1,26 @@
 class CodexCompanion < Formula
   desc "Local provider runtime, relay, and state continuity tool for Codex"
   homepage "https://github.com/Alexlangl/codex-companion"
-  version "0.1.8"
+  version "0.1.9"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Alexlangl/codex-companion/releases/download/v0.1.8/codex-companion-0.1.8-macos-arm64.tar.gz"
-      sha256 "534e9020259bf8d74b3fc8cbdb3c5c7b8e7bf94f61c0bded78f9989313b7974a"
+      url "https://github.com/Alexlangl/codex-companion/releases/download/v0.1.9/codex-companion-0.1.9-macos-arm64.tar.gz"
+      sha256 "8c0c3cd5f0e6f6e2813c2859584bb0efad63e6bb835b68b1b7af89788ea830ec"
     else
-      url "https://github.com/Alexlangl/codex-companion/releases/download/v0.1.8/codex-companion-0.1.8-macos-x64.tar.gz"
-      sha256 "51cf726e2706a06d1d529aa17a335b93d31f9e39493eddff6e219e7d7056622e"
+      url "https://github.com/Alexlangl/codex-companion/releases/download/v0.1.9/codex-companion-0.1.9-macos-x64.tar.gz"
+      sha256 "cf71de81bd80756995346759dbb90cb73446322c4b8d30fbc6785eb3d8b6b841"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Alexlangl/codex-companion/releases/download/v0.1.8/codex-companion-0.1.8-linux-arm64.tar.gz"
-      sha256 "e4fba9858060c29e5cf0002591e85516ac549bc5803462a248086b2aa42b73d9"
+      url "https://github.com/Alexlangl/codex-companion/releases/download/v0.1.9/codex-companion-0.1.9-linux-arm64.tar.gz"
+      sha256 "f83092e50c17031f6ded3bb5e6a83b480d5cc2f8810c02b174fa05414d638ae5"
     else
-      url "https://github.com/Alexlangl/codex-companion/releases/download/v0.1.8/codex-companion-0.1.8-linux-x64.tar.gz"
-      sha256 "d369e97d9599f883f8d8a691600d5d74b221fa29d724640aca43133c7fedc65f"
+      url "https://github.com/Alexlangl/codex-companion/releases/download/v0.1.9/codex-companion-0.1.9-linux-x64.tar.gz"
+      sha256 "66ed5d0b2170601e23787be6e585f921697d5fbae6f3b75ca2e393ff3960fed6"
     end
   end
 

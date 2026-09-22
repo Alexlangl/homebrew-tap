@@ -1,8 +1,8 @@
 cask "codex-companion" do
-  version "0.1.39"
-  sha256 "7b5ac1d2618b688279052dec8bf0ef7bd7a4bc87f11e94d9888d0febf71780f1"
+  version "0.1.40"
+  sha256 "32e8213510357288f9135a5aac4b576358fe961e5ec72b4f7c681563ca9beac3"
 
-  url "https://github.com/Alexlangl/codex-companion/releases/download/v0.1.39/Codex-Companion-0.1.39-macos-universal-dmg.dmg"
+  url "https://github.com/Alexlangl/codex-companion/releases/download/v0.1.40/Codex-Companion-0.1.40-macos-universal-dmg.dmg"
   name "Codex Companion"
   desc "Local provider runtime, relay, and state continuity tool for Codex"
   homepage "https://github.com/Alexlangl/codex-companion"

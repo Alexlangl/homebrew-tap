@@ -1,6 +1,6 @@
 cask "codex-companion" do
   version "0.1.48"
-  sha256 "bbd8187bd693a82eda1cfbe59485901db454eaebeb96bfc1fbd7fff86645f099"
+  sha256 "8ff0cccb6fb78fafb6208f29e1d38dfdf151f96c1a06214bed1bcda8204a012c"
 
   url "https://github.com/Alexlangl/codex-companion/releases/download/v0.1.48/Codex-Companion-0.1.48-macos-universal-dmg.dmg"
   name "Codex Companion"
